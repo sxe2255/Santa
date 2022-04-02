@@ -708,7 +708,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var URL = 'http://localhost:5000/api/auth/register';
+var URL = 'https://lychee-tart-37379.herokuapp.com/api/auth/register';
 var form = document.querySelector('.registerForm');
 var header, message;
 var data = {};
