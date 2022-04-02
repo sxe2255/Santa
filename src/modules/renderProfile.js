@@ -6,7 +6,7 @@ import { sendGift } from './sendGift';
 import { renderHistory } from './renderHistory';
 
 
-const URL_SANTA = 'http://localhost:5000/api/personal/santa';
+const URL_SANTA = 'https://lychee-tart-37379.herokuapp.com/api/personal/santa';
 
 let userData;
 let preloader = document.querySelector('.preloader-5');

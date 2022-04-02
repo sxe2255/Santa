@@ -1,6 +1,6 @@
-const USER_DATA = 'http://localhost:5000/api/personal/personal';
-const USER_LOGIN = 'http://localhost:5000/api/auth/login';
-const USER_HISTORY = 'http://localhost:5000/api/history/history';
+const USER_DATA = 'https://lychee-tart-37379.herokuapp.com/api/personal/personal';
+const USER_LOGIN = 'https://lychee-tart-37379.herokuapp.com/api/auth/login';
+const USER_HISTORY = 'https://lychee-tart-37379.herokuapp.com/api/history/history';
 
 import regeneratorRuntime from 'regenerator-runtime';
 const getResource = async(url, options) => {

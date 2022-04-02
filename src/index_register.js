@@ -1,7 +1,7 @@
 import {validation} from './modules/validation';
 import { pushNotification } from './modules/pushNotification';
 import './styles/style.css';
-const URL = 'http://localhost:5000/api/auth/register';
+const URL = 'https://lychee-tart-37379.herokuapp.com/api/auth/register';
 const form = document.querySelector('.registerForm');
 let header, message;
 let data = {};

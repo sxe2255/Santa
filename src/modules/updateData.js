@@ -5,7 +5,7 @@ import { renderPersonalCabinet } from './renderProfile';
 import {validation} from './validation';
 import { async } from 'regenerator-runtime';
 
-const UPDATE_URL = 'http://localhost:5000/api/personal/personal';
+const UPDATE_URL = 'https://lychee-tart-37379.herokuapp.com/api/personal/personal';
 
 const updateData = () => {
     let header = '';

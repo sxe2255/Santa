@@ -1,7 +1,7 @@
 import { async } from 'regenerator-runtime';
 import { getResource } from './utils';
-import{ renderPersonalCabinet } from './renderProfile';
-const URL_SENDGIFT = 'http://localhost:5000/api/history/addhistory';
+
+const URL_SENDGIFT = 'https://lychee-tart-37379.herokuapp.com/api/history/addhistory';
 
 const sendGift = async () => {
     const options = {
