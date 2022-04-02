@@ -6,6 +6,7 @@ const URL_SENDGIFT = 'https://lychee-tart-37379.herokuapp.com/api/history/addhis
 const sendGift = async () => {
     const options = {
         method: 'POST',
+        mode: 'no-cors',
         headers: {
             'Content-Type': 'application/json',
             'Authorization': localStorage.getItem('token')

@@ -28,6 +28,7 @@ const getLogin = async(options) => {
 const getUser = async () => {
     let options = {
         method: 'POST',
+        mode: 'no-cors',
         headers: {
             'Content-Type': 'application/json',
             'Authorization': localStorage.getItem('token')
@@ -38,6 +39,7 @@ const getUser = async () => {
 const getHistory = async () => {
     let options = {
         method: 'POST',
+        mode: 'no-cors',
         headers: {
             'Content-Type': 'application/json',
             'Authorization': localStorage.getItem('token')

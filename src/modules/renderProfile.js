@@ -57,6 +57,7 @@ const renderPersonalCabinet = async () => {
             preloader.style.display = 'block';
             const options = {
                 method: 'POST',
+                mode: 'no-cors',
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': localStorage.getItem('token')

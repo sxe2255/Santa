@@ -28,6 +28,7 @@ const updateData = () => {
         }
         let options = {
             method: 'PUT',
+            mode: 'no-cors',
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': localStorage.getItem('token')
