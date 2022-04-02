@@ -264,6 +264,7 @@ var getUser = /*#__PURE__*/function () {
           case 0:
             options = {
               method: 'POST',
+              mode: 'no-cors',
               headers: {
                 'Content-Type': 'application/json',
                 'Authorization': localStorage.getItem('token')
@@ -298,6 +299,7 @@ var getHistory = /*#__PURE__*/function () {
           case 0:
             options = {
               method: 'POST',
+              mode: 'no-cors',
               headers: {
                 'Content-Type': 'application/json',
                 'Authorization': localStorage.getItem('token')

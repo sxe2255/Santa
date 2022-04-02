@@ -487,6 +487,7 @@ var renderPersonalCabinet = /*#__PURE__*/function () {
                         preloader.style.display = 'block';
                         options = {
                           method: 'POST',
+                          mode: 'no-cors',
                           headers: {
                             'Content-Type': 'application/json',
                             'Authorization': localStorage.getItem('token')
@@ -575,6 +576,7 @@ var sendGift = /*#__PURE__*/function () {
           case 0:
             options = {
               method: 'POST',
+              mode: 'no-cors',
               headers: {
                 'Content-Type': 'application/json',
                 'Authorization': localStorage.getItem('token')
@@ -664,6 +666,7 @@ var updateData = function updateData() {
 
             options = {
               method: 'PUT',
+              mode: 'no-cors',
               headers: {
                 'Content-Type': 'application/json',
                 'Authorization': localStorage.getItem('token')
@@ -812,6 +815,7 @@ var getUser = /*#__PURE__*/function () {
           case 0:
             options = {
               method: 'POST',
+              mode: 'no-cors',
               headers: {
                 'Content-Type': 'application/json',
                 'Authorization': localStorage.getItem('token')
@@ -846,6 +850,7 @@ var getHistory = /*#__PURE__*/function () {
           case 0:
             options = {
               method: 'POST',
+              mode: 'no-cors',
               headers: {
                 'Content-Type': 'application/json',
                 'Authorization': localStorage.getItem('token')
